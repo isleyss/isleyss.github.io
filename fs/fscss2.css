@@ -476,7 +476,7 @@ a.switcheroo__squircle.switcheroo__logo {
 	max-height: 350px!important;
 }
 #FAM-toolbar {
-	background-image: url(https://i.imgur.com/eumnm7i.jpg)!important;
+	background: var(--bg)!important;
 	background-size: cover!important;
 	background-position: bottom!important;
 	border: none!important;
