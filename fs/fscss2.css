@@ -510,6 +510,9 @@ a.switcheroo__squircle.switcheroo__logo {
 .FAM-attachment img {
 	max-width: 200px;
 }
+ img.FAM-emojione {
+    width: 16px;
+}
 /********* SIDEBAR *********/
 
 .sidebar {
