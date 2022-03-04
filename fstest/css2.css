@@ -130,11 +130,12 @@
 .switcheroo {
 	/* switcheroo barre et position */
 	position: fixed;
-	z-index: 999;
-	top: 0;
-	bottom: 0;
-	color: var(--color-text);
-	font-size: 16px;
+    z-index: 999;
+    top: 150px;
+    bottom: 0;
+    color: var(--color-text);
+    font-size: 16px;
+    left: 57px;
 }
 .switcheroo,
 .switcheroo *,
@@ -160,11 +161,11 @@
 	border-radius: 50%;
 	cursor: pointer;
 	display: flex;
-	height: 40px;
+	height: 28px;
 	justify-content: center;
 	position: relative;
 	transition: border-radius 128ms var(--ease);
-	width: 40px;
+	width: 28px;
 }
 a.switcheroo__squircle.switcheroo__logo {
 	background: transparent!important;
