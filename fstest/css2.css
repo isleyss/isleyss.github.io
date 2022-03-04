@@ -152,7 +152,6 @@
 	padding: 0;
 	list-style: none;
 	background-color: var(--color-body);
-	padding: var(--gap-size);
 	gap: var(--gap-size);
 }
 .switcheroo__squircle {
