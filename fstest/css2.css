@@ -515,44 +515,64 @@ a.switcheroo__squircle.switcheroo__logo {
  img.FAM-emojione {
     width: 16px;
 }
-/********* SIDEBAR *********/
-
-.sidebar {
-	background: var(--color-bg);
-	box-sizing: border-box;
+/********* CONNEXION POPUP *********/
+#quickloginform_overlay {
+	background-color: #D3BBB6;
 	height: 100%;
-	height: 1000px;
 	left: 0;
+	opacity: 0.7;
 	position: fixed;
 	top: 0;
-	width: 72px;
-	z-index: 999;
-	transition: 0.3s;
-	transform: translateX(-100%);
+	width: 100%;
 }
-.sidebar--deployed {
-	transform: translateX(0);
+#quickloginform {
+	height: 100%;
+	position: fixed;
+	top: 20%;
+	width: 100%;
 }
-.sidebar a,
-.sidebar a:hover,
-.sidebar a:active {
-	text-decoration: none !important;
+#quickloginform>form {
+	background-color: #fff;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 20px 30px;
+	width: 360px;
+	border-radius: 3px;
 }
-.sidebar_btn {
-	background: var(--color-bg);
-	color: var(--black);
-	border: 0;
-	height: 30px;
-	outline: 0;
-	position: absolute;
-	right: -30px;
-	width: 30px;
-	top: 40px;
+#quickloginform input[type="password"],
+#quickloginform input[type="text"] {
+	background: #f2f2f2 none repeat scroll 0 0;
+	border: 0 none;
+	box-sizing: border-box;
+	font-family: "Helvetica";
+	font-size: 14px;
+	margin: 0 0 15px;
+	outline: 0 none;
+	padding: 15px;
+	width: 100%;
 }
-.sidebar_btn i {
-	transform: rotate(45deg);
-	transition: 0.3s;
+#quickloginform button {
+	background: #0d0d0d;
+	border: 0 none;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: "Helvetica";
+	font-size: 14px;
+	outline: 0 none;
+	padding: 15px;
+	text-transform: uppercase;
+	width: 100%;
 }
-.sidebar--deployed .sidebar_btn i {
-	transform: rotate(0);
+#quickloginform p:nth-child(n) {
+	margin-bottom: 0;
+	margin-top: 20px;
+	text-align: center;
+}
+#quickloginform form p {
+	color: #736D68;
+	font-size: 11px;
+}
+#quickloginform form a {
+	color: #a4a4a4;
+	text-decoration: none;
 }
