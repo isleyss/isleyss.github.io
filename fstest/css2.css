@@ -576,6 +576,60 @@ a.switcheroo__squircle.switcheroo__logo {
 	color: #a4a4a4;
 	text-decoration: none;
 }
+/********* MODERNBB CODES *********/
+.mentiontag {
+    background-color: transparent!important;
+    color: var(--link)!important;
+    border-radius: 0px!important;
+    font-weight: 700!important;
+    padding: 0px!important;
+	}
+.mentiontag:link, .mentiontag:visited {
+	color: var(--link)!important;
+	}
+.mentiontag:hover, .mentiontag:active {
+	background-color: transparent!important;
+	color: var(--link)!important;
+	}
+blockquote {
+      margin-block-start: 1em!important;
+    margin-block-end: 1em!important;
+    margin-inline-start: 40px!important;
+    margin-inline-end: 40px!important;
+	background-color: transparent!important;
+	border:none!important;
+	    font-size: 12px!important;
+	overflow: visible!important;
+	position: relative;
+  padding:0px!important;
+	 }
+blockquote:before {
+	content: "";
+	color: rgba(0, 0, 0, 0.1);
+	font-size: 3.6rem;
+	position: absolute;
+	right: 9px;
+	top: 6px;
+	display: inline-block;
+	font-family: "Ionicons";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-rendering: auto;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display:none!important;
+	 }
+blockquote blockquote {
+	background-color:transparent!important;
+	  margin-block-start: 1em!important;
+    margin-block-end: 1em!important;
+    margin-inline-start: 40px!important;
+    margin-inline-end: 40px!important;
+	 }
 /*---------------------------------------------------
     
     MUSIC PLAYER #02 by glenthemes
@@ -668,3 +722,5 @@ a.switcheroo__squircle.switcheroo__logo {
     letter-spacing:.5px;
     color:var(--MusicPlayer-Text-Color);
 }
+
+
