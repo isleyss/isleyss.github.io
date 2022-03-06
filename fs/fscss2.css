@@ -598,7 +598,7 @@ blockquote {
     margin-inline-end: 40px;
 	background-color: #;
 	border:none!important;
-	font-size: 12px;
+	    font-size: 12px!important;
 	overflow: visible;
 	position: relative;
   padding:0px;
