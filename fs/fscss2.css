@@ -686,17 +686,17 @@ a.switcheroo__squircle.switcheroo__logo {
 
 /********* GLITCH *********/
 .glitch_container {
-  height 100%;
-  width 100%;
-  justify-content center;
-  align-items center;
-  display flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .glitch_text {
-  font-weight 100;
-  font-size 28px;
-  color #FAFAFA;
+  font-weight: 100;
+  font-size: 28px;
+  color: #FAFAFA;
 }
 .dud {
-  color #757575;
+  color: #757575;
 }
