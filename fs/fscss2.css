@@ -592,10 +592,10 @@ a.switcheroo__squircle.switcheroo__logo {
 	color: var(--link)!important;
 	}
 blockquote {
-      margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+      margin-block-start: 1em!important;
+    margin-block-end: 1em!important;
+    margin-inline-start: 40px!important;
+    margin-inline-end: 40px!important;
 	background-color: transparent!important;
 	border:none!important;
 	    font-size: 12px!important;
@@ -625,10 +625,10 @@ blockquote:before {
 	 }
 blockquote blockquote {
 	background-color:transparent!important;
-	  margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
+	  margin-block-start: 1em!important;
+    margin-block-end: 1em!important;
+    margin-inline-start: 40px!important;
+    margin-inline-end: 40px!important;
 	 }
 /*---------------------------------------------------
     
