@@ -683,3 +683,20 @@ a.switcheroo__squircle.switcheroo__logo {
     letter-spacing:.5px;
     color:var(--MusicPlayer-Text-Color);
 }
+
+/********* GLITCH *********/
+.glitch_container {
+  height 100%;
+  width 100%;
+  justify-content center;
+  align-items center;
+  display flex;
+}
+.glitch_text {
+  font-weight 100;
+  font-size 28px;
+  color #FAFAFA;
+}
+.dud {
+  color #757575;
+}
