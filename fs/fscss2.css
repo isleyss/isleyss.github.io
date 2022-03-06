@@ -596,12 +596,12 @@ blockquote {
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
-	background-color: #;
+	background-color: transparent!important;
 	border:none!important;
 	    font-size: 12px!important;
-	overflow: visible;
+	overflow: visible!important;
 	position: relative;
-  padding:0px;
+  padding:0px!important;
 	 }
 blockquote:before {
 	content: "";
@@ -621,9 +621,10 @@ blockquote:before {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	display:none!important;
 	 }
 blockquote blockquote {
-	background-color:transparent;
+	background-color:transparent!important;
 	  margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 40px;
