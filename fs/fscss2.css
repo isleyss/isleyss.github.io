@@ -576,6 +576,21 @@ a.switcheroo__squircle.switcheroo__logo {
 	color: #a4a4a4;
 	text-decoration: none;
 }
+/********* MODERNBB CODES *********/
+.mentiontag {
+	background-color: transparent;
+	color: var(--link);
+	border-radius: 0px;
+	font-weight: 700;
+	padding: 0px;
+	}
+.mentiontag:link, .mentiontag:visited {
+	color: var(--link);
+	}
+.mentiontag:hover, .mentiontag:active {
+	background-color: transparent;
+	color: var(--link);
+	}
 /*---------------------------------------------------
     
     MUSIC PLAYER #02 by glenthemes
