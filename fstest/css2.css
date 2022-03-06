@@ -576,7 +576,20 @@ a.switcheroo__squircle.switcheroo__logo {
 	color: #a4a4a4;
 	text-decoration: none;
 }
-/*-------MUSIC PLAYER BY GLENTHEMES-------*/
+/*---------------------------------------------------
+    
+    MUSIC PLAYER #02 by glenthemes
+    
+    Initial release: 2018/10/30
+    Rework date: 2022/02/03
+    Last updated: 2022/02/16
+
+    CREDITS:
+    > play & pause icons: Phosphor Icons
+    > music note icon: Ahmed Agrma
+      behance.net/gallery/94660737/400-Free-Line-Icons
+    
+---------------------------------------------------*/
 :root {
     --MusicPlayer-Position:bottom left;
     --MusicPlayer-Edge-Offset:18px;
@@ -598,6 +611,7 @@ a.switcheroo__squircle.switcheroo__logo {
     display:flex;
     align-items:center;
     visibility:hidden;
+    justify-content: center;
 }
 
 .mp-top {
