@@ -630,6 +630,13 @@ blockquote blockquote {
     margin-inline-start: 40px!important;
     margin-inline-end: 40px!important;
 	 }
+blockquote cite {
+    font-size: 12px!important;
+    font-weight: 700!important;
+    background: var(--gray)!important;
+    padding: 5px 10px!important;
+    border-radius: 5px!important;
+}
 /*---------------------------------------------------
     
     MUSIC PLAYER #02 by glenthemes
