@@ -100,7 +100,7 @@
 }
 .mbrfs_details {
 	-webkit-transition: opacity .45s linear;
-	background: rgba(224, 196, 167, 0.74);
+	background: var(--gradient);
 	height: 290px;
 	text-align: right;
 	transition: opacity .45s linear;
