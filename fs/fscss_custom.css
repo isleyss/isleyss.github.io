@@ -1,0 +1,15 @@
+/********* CSS CUSTOM *********/
+.fsboard {
+    display: grid;
+    grid-gap: 6px;
+    grid-template-columns: repeat(3,auto);
+    margin: 0 auto;
+    justify-content: center;
+}
+.fsboard img {
+    border-radius: 3px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    width: 200px;
+}
