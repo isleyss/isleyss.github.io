@@ -642,7 +642,7 @@ blockquote blockquote {
 	 }
 blockquote cite {
     font-weight: 700!important;
-    font-size: 1.3rem!important;
+    font-size: 12px!important;
     margin-bottom: 6px!important;
 }
 blockquote.ctquote {
