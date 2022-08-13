@@ -88,9 +88,7 @@ ci:hover {
     height: 70px;
     background-size: cover;
     background-position: center;
-    border: 0px solid rgba(var(--colorrgb) / 100%);
     margin: 6px;
-    background-size: cover;
     background-position: center;
   border-radius:15px;
   filter:grayscale(1);
