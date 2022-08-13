@@ -101,10 +101,7 @@ ci:hover {
     width: 100%;
     height: 100%;
         background-color: rgb(0 0 0 / 50%);
-    font-family: helvetica;
-    font-size: 9px;
     line-height: 70px;
-    color: var(--lighttext);
     text-align: center;
     vertical-align: center;
     opacity: 1;
@@ -116,7 +113,7 @@ ci:hover {
     display: flex;
     justify-content: center;
   border-radius:15px;
-  color:#ffffff;
+  color:var(--white);
 }
 .fsmaze_intro .hover:hover {
     opacity: 0.2;
