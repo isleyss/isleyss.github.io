@@ -5,7 +5,8 @@
     background: var(--white);
   border-radius:20px;
   padding:15px;
-    box-sizing: content-box;}
+    box-sizing: content-box;
+    margin: 0 auto;}
 .fsmaze_intu {
         border-radius: 100%;
     width: 50px;
