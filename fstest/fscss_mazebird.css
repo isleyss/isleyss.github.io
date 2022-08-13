@@ -16,8 +16,6 @@
 }
 .fsmaze_intnav {
     position: absolute;
-    top: 20px;
-    left: 340px;
 }
 .fsmaze_intnav i.fa-solid {
     margin: 0px 3px;
