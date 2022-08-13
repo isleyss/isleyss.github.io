@@ -1,0 +1,125 @@
+
+.fsmaze_intro {
+  width: 360px;
+    text-align: justify;
+    background: #ffffff;
+  border-radius:20px;
+  padding:15px;
+    box-sizing: content-box;}
+.fsmaze_intu {
+        border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    box-sizing: content-box;
+    object-fit: cover;
+  cursor:pointer;
+}
+.fsmaze_intnav {
+    position: absolute;
+    top: 20px;
+    left: 340px;
+}
+.fsmaze_intnav i.fa-solid {
+    margin: 0px 3px;
+  cursor:pointer;
+}
+.fsmaze_intinfo span {
+  font-size:14px;}
+.fsmaze_intname {
+    font-size: 15px;
+  cursor:pointer;
+}
+.fsmaze_intprof {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  gap: 12px;
+}
+.fsmaze_intstat span {
+    background: #dedede;
+        padding: 3px 5px;
+    border-radius: 10px;
+}
+.fsmaze_intstat {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+cic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  position: relative;
+  background: none;
+  border: 1px solid rgba(0,0,0,0.3);
+}
+
+ci {
+      display: block;
+    width: 61px;
+    height: 61px;
+    border-radius: 100%;
+    border: 4px solid transparent;
+    border-left: 4px solid #000000;
+    transition: all 2s;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
+ci:hover {
+ transform: rotate(710deg);
+ transition: all 2s;
+ cursor: pointer;
+}
+
+.fsmaze_intro .main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0 auto;
+    justify-content: center;
+}
+.fsmaze_intro .inpost {
+    cursor: pointer;
+    width: 100px;
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+    border: 0px solid rgba(var(--colorrgb) / 100%);
+    margin: 6px;
+    background-size: cover;
+    background-position: center;
+  border-radius:15px;
+  filter:grayscale(1);
+}
+.fsmaze_intro .hover {
+    width: 100%;
+    height: 100%;
+        background-color: rgb(0 0 0 / 50%);
+    font-family: helvetica;
+    font-size: 9px;
+    line-height: 70px;
+    color: var(--lighttext);
+    text-align: center;
+    vertical-align: center;
+    opacity: 1;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    display: flex;
+    justify-content: center;
+  border-radius:15px;
+  color:#ffffff;
+}
+.fsmaze_intro .hover:hover {
+    opacity: 0.2;
+}
+.fsmaze_intro .media {
+    font-size: 14px;
+}
