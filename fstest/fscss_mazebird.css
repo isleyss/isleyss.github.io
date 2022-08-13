@@ -61,15 +61,13 @@ cic {
 
 ci {
       display: block;
-    width: 61px;
-    height: 61px;
+    width: 66px;
+    height: 66px;
     border-radius: 100%;
     border: 4px solid transparent;
     border-left: 4px solid #000000;
     transition: all 2s;
     position: absolute;
-    top: -2px;
-    right: -2px;
 }
 
 ci:hover {
