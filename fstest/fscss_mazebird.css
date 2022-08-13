@@ -16,6 +16,9 @@
 }
 .fsmaze_intnav {
     position: absolute;
+      position: absolute;
+    left: 315px;
+    top: 0;
 }
 .fsmaze_intnav i.fa-solid {
     margin: 0px 3px;
@@ -32,6 +35,7 @@
     align-items: center;
     flex-direction: row;
   gap: 12px;
+      position: relative;
 }
 .fsmaze_intstat span {
     background: #dedede;
