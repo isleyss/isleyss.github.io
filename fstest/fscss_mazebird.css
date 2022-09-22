@@ -315,3 +315,39 @@ width: 280px;
 }
 .fsmaze_tknotif i.cp-heart:hover{
   color:#ED4956;}
+
+/********* MAZEBIRD - REPLIES *********/
+.fsmaze_post2 {
+  display:flex;
+   width: 360px;
+    text-align: justify;
+    background: #ffffff;
+    box-sizing: content-box;
+   border-radius:20px;
+  padding:15px;
+      gap:10px;
+    align-items: center;
+  flex-wrap: wrap;
+}
+.fsmaze_user { border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    box-sizing: content-box;
+    object-fit: cover;
+  cursor:pointer;}
+.fsmaze_postcm::before {
+  content: "\f3e5";
+    font-family:'FontAwesome';
+  margin-right:5px;
+}
+.fsmaze_postnotif {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  cursor:pointer;
+      margin-bottom: 5px;
+  font-weight:700;
+}
+.fsmaze_postnotif i.cp-heart-o:hover{
+  color:#ED4956;
+}
