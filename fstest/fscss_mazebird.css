@@ -1,4 +1,5 @@
 
+/********* MAZEBIRD - POST INTRO *********/
 .fsmaze_intro {
   width: 360px;
     text-align: justify;
@@ -115,4 +116,139 @@ ci:hover {
 }
 .fsmaze_intro .media {
     font-size: 14px;
+}
+
+/********* MAZEBIRD - SINGLE POST *********/
+.fsmaze {
+    background-size: cover;
+    background-position: center center;
+    width: 390px;
+     height: 390px;
+    background-color: var(--white);
+}
+.fsmaze_user { 
+  border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    box-sizing: content-box;
+    object-fit: cover;
+  cursor:pointer;
+}
+.fsmaze_postd {
+  display:flex;
+   width: 360px;
+    text-align: justify;
+    background: #ffffff;
+    box-sizing: content-box;
+   border-radius:20px 20px 0px 0px;
+  padding:15px;
+      gap:10px;
+    align-items: center;
+}
+.fsmaze_post {
+    width: 360px;
+    text-align: justify;
+    background: #ffffff;
+    box-sizing: content-box;
+   border-radius:0px 0px 20px 20px;
+  padding:15px;
+}
+.fsmaze_postnotif {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  cursor:pointer;
+      margin-bottom: 5px;
+  font-weight:700;
+}
+.fsmaze_post cm, .fsmaze_postd cm {
+  color:#727272;
+  margin-left: auto;
+}
+.fsmaze_postnotif i.cp-heart-o:hover{
+  color:#ED4956;
+}
+
+.fsmaze_user cic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  position: relative;
+  background: none;
+  border: 1px solid rgba(0,0,0,0.3);
+}
+.fsmaze_user ci {
+  display: block;
+  width: 41px;
+  height: 41px;
+  border-radius: 100%;
+  border: 4px solid transparent;
+  border-left: 4px solid #000000;
+  transition: all 2s;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+
+.fsmaze_user ci:hover {
+ transform: rotate(710deg);
+ transition: all 2s;
+ cursor: pointer;
+}
+.fsmaze_postid {
+    position: absolute;
+    top: 450px;
+    background: #000000;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    color: #ffffff;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+    left: 15px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+    left: 100px;
+    opacity: 0.7;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
 }
