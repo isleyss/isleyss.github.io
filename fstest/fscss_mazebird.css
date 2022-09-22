@@ -271,6 +271,9 @@ color:#000000;
 opacity:0.6;
 }
 /********* MAZEBIRD - STORIES LIVE *********/
+.fsmaze_tk {
+  position:relative;
+}
 .fsmaze_tkimg{
     background-size: cover;
     background-position: center center;
