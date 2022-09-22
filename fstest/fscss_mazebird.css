@@ -125,6 +125,7 @@ ci:hover {
     width: 390px;
      height: 390px;
     background-color: var(--white);
+  position:relative;
 }
 .fsmaze_user { 
   border-radius: 100%;
