@@ -67,7 +67,7 @@ ci {
     height: 66px;
     border-radius: 100%;
     border: 4px solid transparent;
-    border-left: 4px solid #000000;
+    border-left: 4px solid var(--black);
     transition: all 2s;
     position: absolute;
 }
@@ -139,7 +139,7 @@ ci:hover {
   display:flex;
    width: 360px;
     text-align: justify;
-    background: #ffffff;
+    background: var(--white);;
     box-sizing: content-box;
    border-radius:20px 20px 0px 0px;
   padding:15px;
@@ -149,7 +149,7 @@ ci:hover {
 .fsmaze_post {
     width: 360px;
     text-align: justify;
-    background: #ffffff;
+    background: var(--white);;
     box-sizing: content-box;
    border-radius:0px 0px 20px 20px;
   padding:15px;
@@ -188,7 +188,7 @@ ci_s {
   height: 41px;
   border-radius: 100%;
   border: 4px solid transparent;
-  border-left: 4px solid #000000;
+  border-left: 4px solid var(--black);;
   transition: all 2s;
   position: absolute;
   top: -2px;
@@ -203,12 +203,12 @@ ci_s:hover {
 .fsmaze_postid {
     position: absolute;
     top: 450px;
-    background: #000000;
+    background: var(--black);
     padding: 5px;
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    color: #ffffff;
+    color: var(--white);
     font-size: 9px;
     display: flex;
     align-items: center;
@@ -226,7 +226,7 @@ ci_s:hover {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: var(--black);
   color: #fff;
   text-align: center;
   border-radius: 6px;
