@@ -216,6 +216,7 @@ ci_s:hover {
     justify-content: center;
     cursor: pointer;
     left: 10px;
+  box-sizing: content-box;
 }
 
 .tooltip {
