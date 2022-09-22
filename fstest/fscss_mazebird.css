@@ -169,7 +169,7 @@ ci:hover {
   color:#ED4956;
 }
 
-.fsmaze_user cic {
+cic_s {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,7 +181,7 @@ ci:hover {
   background: none;
   border: 1px solid rgba(0,0,0,0.3);
 }
-.fsmaze_user ci {
+ci_s {
   display: block;
   width: 41px;
   height: 41px;
@@ -194,7 +194,7 @@ ci:hover {
   right: -2px;
 }
 
-.fsmaze_user ci:hover {
+ci_s:hover {
  transform: rotate(710deg);
  transition: all 2s;
  cursor: pointer;
