@@ -229,7 +229,7 @@ ci_s:hover {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: 000000;
+  background-color: #000000;
   color: #fff;
   text-align: center;
   border-radius: 6px;
