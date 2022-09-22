@@ -202,7 +202,7 @@ ci_s:hover {
 }
 .fsmaze_postid {
     position: absolute;
-    top: 450px;
+    top: 365px;
     background: var(--black);
     padding: 5px;
     width: 10px;
@@ -215,7 +215,7 @@ ci_s:hover {
     align-content: center;
     justify-content: center;
     cursor: pointer;
-    left: 15px;
+    left: 10px;
 }
 
 .tooltip {
