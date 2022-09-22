@@ -117,7 +117,6 @@ ci:hover {
 .fsmaze_intro .media {
     font-size: 14px;
 }
-
 /********* MAZEBIRD - SINGLE POST *********/
 .fsmaze {
     background-size: cover;
@@ -257,3 +256,16 @@ ci_s:hover {
   border-style: solid;
   border-color: transparent transparent black transparent;
 }
+/********* MAZEBIRD - CAROUSEL POST *********/
+.fsmaze_post .tabs-onglets {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    gap: 3px;
+
+}
+.fsmaze_post .tabs-onglets a {
+  font-size:20px;
+color:#000000;
+opacity:0.6;}
