@@ -48,7 +48,7 @@
     align-items: center;
     justify-content: space-evenly;
 }
-cic {
+rol {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,7 +61,7 @@ cic {
   border: 1px solid rgba(0,0,0,0.3);
 }
 
-ci {
+rl {
       display: block;
     width: 66px;
     height: 66px;
@@ -72,7 +72,7 @@ ci {
     position: absolute;
 }
 
-ci:hover {
+rl:hover {
  transform: rotate(710deg);
  transition: all 2s;
  cursor: pointer;
@@ -172,7 +172,7 @@ ci:hover {
   color:#ED4956;
 }
 
-cic_s {
+rol_s {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,20 +184,20 @@ cic_s {
   background: none;
   border: 1px solid rgba(0,0,0,0.3);
 }
-ci_s {
+rl_s {
   display: block;
   width: 46px;
   height: 46px;
   border-radius: 100%;
   border: 4px solid transparent;
-  border-left: 4px solid var(--black);;
+  border-left: 4px solid var(--black);
   transition: all 2s;
   position: absolute;
   top: -2px;
   right: -2px;
 }
 
-ci_s:hover {
+rl_s:hover {
  transform: rotate(710deg);
  transition: all 2s;
  cursor: pointer;
@@ -205,12 +205,12 @@ ci_s:hover {
 .fsmaze_postid {
     position: absolute;
     top: 365px;
-    background: var(--black);
+    background: var(--dark);
     padding: 5px;
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    color: var(--white);
+    color: var(--light);
     font-size: 9px;
     display: flex;
     align-items: center;
@@ -229,7 +229,7 @@ ci_s:hover {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #000000;
+  background-color: var(--dark);
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -267,7 +267,7 @@ ci_s:hover {
 }
 .fsmaze_post .tabs-onglets a {
   font-size:20px;
-color:#000000;
+color:var(--dark);
 opacity:0.6;
 }
 /********* MAZEBIRD - STORIES LIVE *********/
@@ -279,17 +279,17 @@ opacity:0.6;
     background-position: center center;
     width: 280px;
   height: 500px;
-  background-color: #ffffff;
+  background-color: var(--light);
 border-radius:20px;}
 .fsmaze_tkinfo {
 width: 280px;
     position: absolute;
     top: 410px;
     left: 10px;
-    color: #ffffff;}
+    color: var(--light);}
 .fsmaze_tknotif {
  position: absolute;
-    color: #ffffff;
+    color: var(--light);
     top: 240px;
     left: 235px;
     display: flex;
@@ -314,12 +314,12 @@ width: 280px;
 .fsmaze_tknotif i.cp-heart:hover{
   color:#ED4956;}
 
-/********* MAZEBIRD - REPLIES *********/
+/********* MAZEBIRD - REPLIES NOTIF *********/
 .fsmaze_post2 {
   display:flex;
    width: 360px;
     text-align: justify;
-    background: #ffffff;
+    background: var(--white);
     box-sizing: content-box;
    border-radius:20px;
   padding:15px;
