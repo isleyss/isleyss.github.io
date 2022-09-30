@@ -157,7 +157,7 @@ rl:hover {
       margin: 0 auto;
 }
 .fsmaze_postnotif {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 10px;
   cursor:pointer;
