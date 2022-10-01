@@ -116,6 +116,7 @@ rl:hover {
 }
 .fsmaze_intro .media {
     font-size: 14px;
+  color:var(--light);
 }
 /********* MAZEBIRD - SINGLE POST *********/
 .fsmaze {
