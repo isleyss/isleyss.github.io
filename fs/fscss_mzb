@@ -1,0 +1,350 @@
+ 
+/********* MAZEBIRD - POST INTRO *********/
+ .fsmaze_intro {
+     width: 360px;
+     text-align: justify;
+     background: var(--white);
+     border-radius:20px;
+     padding:15px;
+     box-sizing: content-box;
+     margin: 0 auto;
+}
+ .fsmaze_intu {
+     border-radius: 100%;
+     width: 50px;
+     height: 50px;
+     box-sizing: content-box;
+     object-fit: cover;
+     cursor:pointer;
+}
+ .fsmaze_intnav {
+     position: absolute;
+     left: 315px;
+     top: 0;
+}
+ .fsmaze_intnav i.fa-solid {
+     margin: 0px 3px;
+     cursor:pointer;
+}
+ .fsmaze_intinfo span {
+     font-size:14px;
+}
+ .fsmaze_intname {
+     font-size: 15px;
+     cursor:pointer;
+}
+ .fsmaze_intprof {
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     gap: 12px;
+     position: relative;
+}
+ .fsmaze_intstat span {
+     background: #dedede;
+     padding: 3px 5px;
+     border-radius: 10px;
+}
+ .fsmaze_intstat {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+ rol {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+     width: 65px;
+     height: 65px;
+     border-radius: 100%;
+     position: relative;
+     background: none;
+     border: 1px solid rgba(0,0,0,0.3);
+}
+ rl {
+     display: block;
+     width: 66px;
+     height: 66px;
+     border-radius: 100%;
+     border: 4px solid transparent;
+     border-left: 4px solid var(--black);
+     transition: all 2s;
+     position: absolute;
+}
+ rl:hover {
+     transform: rotate(710deg);
+     transition: all 2s;
+     cursor: pointer;
+}
+ .fsmaze_intro .main {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 10px 0 auto;
+     justify-content: center;
+}
+ .fsmaze_intro .inpost {
+     cursor: pointer;
+     width: 100px;
+     height: 70px;
+     background-size: cover;
+     background-position: center;
+     margin: 6px;
+     background-position: center;
+     border-radius:15px;
+     filter:grayscale(1);
+}
+ .fsmaze_intro .hover {
+     width: 100%;
+     height: 100%;
+     background-color: rgb(0 0 0 / 50%);
+     opacity: 1;
+     -webkit-transition: all 0.6s ease-in-out;
+     -moz-transition: all 0.6s ease-in-out;
+     -o-transition: all 0.6s ease-in-out;
+     ms-transition: all 0.6s ease-in-out;
+     transition: all 0.6s ease-in-out;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius:15px;
+     color:var(--white);
+}
+ .fsmaze_intro .hover:hover {
+     opacity: 0.2;
+}
+ .fsmaze_intro .media {
+     font-size: 14px;
+}
+/********* MAZEBIRD - SINGLE POST *********/
+ .fsmaze {
+     background-size: cover;
+     background-position: center center;
+     width: 390px;
+     height: 390px;
+     background-color: var(--white);
+     position:relative;
+     margin: 0 auto;
+}
+ .fsmaze_user {
+     border-radius: 100%;
+     width: 30px;
+     height: 30px;
+     box-sizing: content-box;
+     object-fit: cover;
+     cursor:pointer;
+}
+ .fsmaze_postd {
+     display:flex;
+     width: 360px;
+     text-align: justify;
+     background: var(--white);
+    ;
+     box-sizing: content-box;
+     border-radius:20px 20px 0px 0px;
+     padding:15px;
+     gap:10px;
+     align-items: center;
+     margin: 0 auto;
+}
+ .fsmaze_post {
+     width: 360px;
+     text-align: justify;
+     background: var(--white);
+    ;
+     box-sizing: content-box;
+     border-radius:0px 0px 20px 20px;
+     padding:15px;
+     margin: 0 auto;
+}
+ .fsmaze_postnotif {
+     display: inline-flex;
+     align-items: center;
+     gap: 10px;
+     cursor:pointer;
+     margin-bottom: 5px;
+     font-weight:700;
+}
+ .fsmaze_post cm, .fsmaze_postd cm {
+     color:#727272;
+     margin-left: auto;
+}
+ .fsmaze_postnotif i.cp-heart-o:hover{
+     color:#ED4956;
+}
+ rol_s {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+     width: 45px;
+     height: 45px;
+     border-radius: 100%;
+     position: relative;
+     background: none;
+     border: 1px solid rgba(0,0,0,0.3);
+}
+ rl_s {
+     display: block;
+     width: 46px;
+     height: 46px;
+     border-radius: 100%;
+     border: 4px solid transparent;
+     border-left: 4px solid var(--black);
+     transition: all 2s;
+     position: absolute;
+     top: -2px;
+     right: -2px;
+}
+ rl_s:hover {
+     transform: rotate(710deg);
+     transition: all 2s;
+     cursor: pointer;
+}
+ .fsmaze_postid {
+     position: absolute;
+     top: 365px;
+     background: var(--dark);
+     padding: 5px;
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
+     color: var(--light);
+     font-size: 9px;
+     display: flex;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+     cursor: pointer;
+     left: 10px;
+     box-sizing: content-box;
+}
+ .tooltip {
+     position: relative;
+     display: inline-block;
+}
+ .tooltip .tooltiptext {
+     visibility: hidden;
+     width: 120px;
+     background-color: var(--dark);
+     color: #fff;
+     text-align: center;
+     border-radius: 6px;
+     padding: 5px 0;
+    /* Position the tooltip */
+     position: absolute;
+     z-index: 1;
+     top: -100px;
+     left: 100px;
+     opacity: 0.7;
+}
+ .tooltip:hover .tooltiptext {
+     visibility: visible;
+}
+ .tooltip .tooltiptext::after {
+     content: "";
+     position: absolute;
+     bottom: 100%;
+     left: 50%;
+     margin-left: -5px;
+     border-width: 5px;
+     border-style: solid;
+     border-color: transparent transparent black transparent;
+}
+/********* MAZEBIRD - CAROUSEL POST *********/
+ .fsmaze_post .tabs-onglets {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: -10px;
+     gap: 3px;
+}
+ .fsmaze_post .tabs-onglets a {
+     font-size:20px;
+     color:var(--black);
+     opacity:0.6;
+}
+/********* MAZEBIRD - STORIES LIVE *********/
+ .fsmaze_tk {
+     position:relative;
+}
+ .fsmaze_tkimg{
+     background-size: cover;
+     background-position: center center;
+     width: 280px;
+     height: 500px;
+     background-color: var(--light);
+     border-radius:20px;
+}
+ .fsmaze_tkinfo {
+     width: 280px;
+     position: absolute;
+     top: 410px;
+     left: 10px;
+     color: var(--light);
+}
+ .fsmaze_tknotif {
+     position: absolute;
+     color: var(--light);
+     top: 240px;
+     left: 235px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+ .fsmaze_tkuser {
+     border-radius: 100%;
+     width: 30px;
+     padding:2px;
+     height: 30px;
+     box-sizing: content-box;
+     border:1px solid #ffffff;
+     object-fit:cover;
+     cursor: pointer;
+}
+ .fsmaze_tknotif i.cp {
+     cursor:pointer;
+     font-size:18px;
+     padding-bottom:4px;
+}
+ .fsmaze_tknotif i.cp-heart:hover{
+     color:#ED4956;
+}
+/********* MAZEBIRD - REPLIES NOTIF *********/
+ .fsmaze_post2 {
+     display:flex;
+     width: 360px;
+     text-align: justify;
+     background: var(--white);
+     box-sizing: content-box;
+     border-radius:20px;
+     padding:15px;
+     gap:10px;
+     align-items: center;
+     flex-wrap: wrap;
+}
+ .fsmaze_user {
+     border-radius: 100%;
+     width: 30px;
+     height: 30px;
+     box-sizing: content-box;
+     object-fit: cover;
+     cursor:pointer;
+}
+ .fsmaze_postcm::before {
+     content: "\f3e5";
+     font-family:'FontAwesome';
+     margin-right:5px;
+}
+ .fsmaze_postnotif {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     cursor:pointer;
+     margin-bottom: 5px;
+     font-weight:700;
+}
+ .fsmaze_postnotif i.cp-heart-o:hover{
+     color:#ED4956;
+}
+ 
