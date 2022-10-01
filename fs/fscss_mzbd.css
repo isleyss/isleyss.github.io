@@ -279,11 +279,17 @@
      border-radius:20px;
 }
  .fsmaze_tkinfo {
-     width: 280px;
-     position: absolute;
-     top: 410px;
-     left: 10px;
-     color: var(--light);
+    width: 260px;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    color: var(--light);
+}
+.fsmaze_tkinfo ds {
+    border: 1px solid var(--light);
+    display: block;
+    border-radius: 15px;
+    padding: 4px 10px;
 }
  .fsmaze_tknotif {
      position: absolute;
