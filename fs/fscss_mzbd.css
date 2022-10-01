@@ -118,6 +118,10 @@
      font-size: 14px;
      color:var(--light);
 }
+.fsmaze_intinfo i.fa-solid.fa-location-dot {
+     margin: 0px;
+}
+ 
 /********* MAZEBIRD - SINGLE POST *********/
  .fsmaze {
      background-size: cover;
