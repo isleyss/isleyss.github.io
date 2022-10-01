@@ -294,7 +294,7 @@
  .fsmaze_tknotif {
      position: absolute;
      color: var(--light);
-     top: 220px;
+     top: 200px;
      left: 235px;
      display: flex;
      flex-direction: column;
