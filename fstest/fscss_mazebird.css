@@ -338,14 +338,3 @@ width: 280px;
     font-family:'FontAwesome';
   margin-right:5px;
 }
-.fsmaze_postnotif {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  cursor:pointer;
-      margin-bottom: 5px;
-  font-weight:700;
-}
-.fsmaze_postnotif i.cp-heart-o:hover{
-  color:#ED4956;
-}
