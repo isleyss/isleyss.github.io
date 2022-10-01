@@ -44,6 +44,7 @@
      background: #dedede;
      padding: 3px 5px;
      border-radius: 10px;
+     color:var(--dark);
 }
  .fsmaze_intstat {
      display: flex;
@@ -115,6 +116,7 @@
 }
  .fsmaze_intro .media {
      font-size: 14px;
+     color:var(--light);
 }
 /********* MAZEBIRD - SINGLE POST *********/
  .fsmaze {
@@ -286,11 +288,12 @@
  .fsmaze_tknotif {
      position: absolute;
      color: var(--light);
-     top: 240px;
+     top: 220px;
      left: 235px;
      display: flex;
      flex-direction: column;
      align-items: center;
+     gap:3px;
 }
  .fsmaze_tkuser {
      border-radius: 100%;
@@ -335,16 +338,5 @@
      content: "\f3e5";
      font-family:'FontAwesome';
      margin-right:5px;
-}
- .fsmaze_postnotif {
-     display: flex;
-     align-items: center;
-     gap: 10px;
-     cursor:pointer;
-     margin-bottom: 5px;
-     font-weight:700;
-}
- .fsmaze_postnotif i.cp-heart-o:hover{
-     color:#ED4956;
 }
  
