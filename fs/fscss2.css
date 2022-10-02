@@ -172,7 +172,7 @@ a.switcheroo__squircle.switcheroo__logo {
 }
 .switcheroo__squircle--button {
 	transition: border-radius 128ms var(--ease);
-	color: var(--black);
+	color: var(--light);
 }
 .switcheroo__squircle--button:hover {
 	background-color: var(--black);
