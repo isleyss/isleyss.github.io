@@ -270,6 +270,13 @@
      color:var(--black);
      opacity:0.6;
 }
+.fsmaze_cimg #contenu {
+     overflow: hidden;
+     width: 390px;
+     height: 390px;
+     display: flex;
+     margin: 0 auto!important;
+}
 /********* MAZEBIRD - STORIES LIVE *********/
  .fsmaze_tk {
      position:relative;
