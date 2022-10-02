@@ -280,6 +280,9 @@
 /********* MAZEBIRD - STORIES LIVE *********/
  .fsmaze_tk {
      position:relative;
+     width: 280px;
+     height: 500px;
+     margin: 0 auto;
 }
  .fsmaze_tkimg{
      background-size: cover;
