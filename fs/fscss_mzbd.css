@@ -360,4 +360,9 @@
      font-family:'FontAwesome';
      margin-right:5px;
 }
+span.fsmaze_postcm {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
  
