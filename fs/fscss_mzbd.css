@@ -362,7 +362,6 @@
 }
 span.fsmaze_postcm {
     flex-basis: 100%;
-    display: flex;
     align-items: center;
 }
  
