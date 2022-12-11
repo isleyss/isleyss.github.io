@@ -124,7 +124,6 @@
 .mbrfs_d1 {
 font-size: 11px;
     text-transform: lowercase;
-    font-family: var(--sansserif);
     font-weight: 700;
     color: var(--light);
 }
@@ -138,14 +137,13 @@ font-size: 1.9rem;
 .mbrfs_d3 {
     font-size: 10px;
     text-transform: lowercase;
-    font-family: var(--sansserif);
     font-style: italic;
     color: var(--light);
 }
 .mbrfs_details d1 {
 	color: var(--light);
 	display: inline-block;
-	font-family: var(--sansserif);
+	font-family: var(--fontb);
 	font-size: 8px;
 	font-weight: 700;
 	letter-spacing: .2em;
