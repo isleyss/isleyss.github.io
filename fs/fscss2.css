@@ -187,8 +187,6 @@ a.switcheroo__squircle.switcheroo__logo {
 }
 .switcheroo__squircle:hover:before {
 	/* puce hover */
-	opacity: 1;
-	transform: translate(-100%, -50%) scale(0.5);
 }
 .switcheroo__squircle:hover .switcheroo__delete {
 	/* delete button */
