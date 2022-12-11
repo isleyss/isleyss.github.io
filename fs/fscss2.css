@@ -91,14 +91,13 @@
 .ticker-wrap {
     width: 930px!important;
     padding-left: 100%;
-    font-size: 12px;
+    font-size: 13px;
         font-family: var(--serif);
     color: var(--black);
 }
 
 .ticker-wrap img {
-    vertical-align: middle;
-    width: 12px;
+    width: 13px;
 }
 
 /* INNER CONTAINER */
