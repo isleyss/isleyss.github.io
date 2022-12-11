@@ -608,7 +608,7 @@ blockquote {
     margin-inline-end: 40px!important;
 	background-color: transparent!important;
 	border:none!important;
-	    font-size: 12px!important;
+	    font-size: 13px!important;
 	overflow: visible!important;
 	position: relative;
   padding:0px!important;
@@ -642,7 +642,7 @@ blockquote blockquote {
 	 }
 blockquote cite {
     font-weight: 700!important;
-    font-size: 12px!important;
+    font-size: 13px!important;
     margin-bottom: 6px!important;
 }
 blockquote.ctquote {
