@@ -754,7 +754,7 @@ blockquote.ctquote {
 }
 
 /* effet de transition du fond atténué */
-.wombat-overlay.open {
+.wombat-overlay.open, .userProfile-wombat {
     opacity: .5;
     visibility: visible;
 }
