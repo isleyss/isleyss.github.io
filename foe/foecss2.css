@@ -759,6 +759,10 @@ blockquote.ctquote {
     visibility: visible;
 }
 
+.userProfile-wombat {
+	display:flex;
+}
+
 /* Fenêtre du popup */
 .wombat-aside {
     position: fixed;
@@ -768,11 +772,9 @@ blockquote.ctquote {
     transition: 0.2s all ease;
     visibility: hidden;
     opacity: 0;
-    width: 90%;
-    max-width: 800px;
-    box-shadow: var(--shadowBox);
-    border-radius: 10px;
-    height: max-content;
+    width: 100%;
+    max-width: 100%;
+    height: 60%;
     transform: translateX(-20%);
 }
 
